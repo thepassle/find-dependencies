@@ -50,13 +50,13 @@ export function extractPackageNameFromSpecifier(specifier) {
  * Takes a path, returns some split-up information about the path
  * @example 
  * ```
- * '/Users/au87xu/custom-elements-manifest/packages/analyzer/node_modules/foo/node_modules/nested/index.js'
+ * '/Users/blank/custom-elements-manifest/packages/analyzer/node_modules/foo/node_modules/nested/index.js'
  * ```
  * 
  * returns:
  * ```
  * {
- *  packageRoot: '/Users/au87xu/custom-elements-manifest/packages/analyzer/node_modules/foo/node_modules/nested',
+ *  packageRoot: '/Users/blank/custom-elements-manifest/packages/analyzer/node_modules/foo/node_modules/nested',
  *  packageName: 'nested',
  *  specifier: 'nested/index.js'
  * }
