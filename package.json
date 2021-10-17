@@ -1,0 +1,26 @@
+{
+  "name": "find-dependencies",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "cp -a mocks/ node_modules/",
+    "start": "nodemon dev.js",
+    "test": "asdgf"
+  },
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "es-module-lexer": "^0.9.3"
+  },
+  "devDependencies": {
+    "@asdgf/cli": "^0.0.8",
+    "globby": "^12.0.2",
+    "nodemon": "^2.0.13"
+  }
+}
