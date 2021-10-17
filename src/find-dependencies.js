@@ -27,7 +27,8 @@ export async function findDependencies(paths, options = {}) {
   const nodeModulesDepth = options?.nodeModulesDepth ?? 3;
   const basePath = options?.basePath ?? process.cwd();
   console.log(1, basePath);
-  
+  console.log(1, process.cwd());
+
   /** Init es-module-lexer wasm */
   await init;
 
