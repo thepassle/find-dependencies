@@ -10,7 +10,7 @@ import d from 'nested';
 
 import e from 'regular';
 
-import f from 'monorepo';
+import f from 'monorepo-dep';
 
 import g from 'internal-shared';
 
