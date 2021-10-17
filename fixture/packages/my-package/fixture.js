@@ -10,6 +10,8 @@ import d from 'nested';
 
 import e from 'regular';
 
+import f from 'monorepo';
+
 import('dynamic-import');
 
 /** Skip internal modules for the 'root' package, they should already be in the globs given to `findDependencies` */

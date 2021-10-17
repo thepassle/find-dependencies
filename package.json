@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prestart": "cp -a mocks/ node_modules/",
     "start": "nodemon dev.js",
     "test": "asdgf"
   },
