@@ -18,8 +18,12 @@ describe('find-dependencies', ({it}) => {
         '/fixture/packages/my-package/node_modules/nested/index.js',
         '/fixture/packages/my-package/node_modules/regular/index.js',
         '/fixture/node_modules/monorepo/index.js',
+        '/fixture/packages/my-package/node_modules/internal-shared/index.js',
         '/fixture/packages/my-package/node_modules/dynamic-import/index.js',
-        '/fixture/packages/my-package/node_modules/nested/node_modules/regular/index.js'
+        '/fixture/packages/my-package/node_modules/nested/node_modules/regular/index.js',
+        '/fixture/packages/my-package/node_modules/internal-shared/a.js',
+        '/fixture/packages/my-package/node_modules/internal-shared/b.js',
+        '/fixture/packages/my-package/node_modules/internal-shared/c.js'
       ]
     )
   });

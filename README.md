@@ -13,8 +13,8 @@ const inputPaths = ['my-package/index.js'];
 Where `my-package/index.js` contains:
 
 ```js
-import a from '@scoped/package';
-import b from '@scoped/package/baz/index.js';
+import '@scoped/package';
+import {b} from '@scoped/package/baz/index.js';
 import c from 'export-map';
 import d from 'nested';
 import e from 'regular';

@@ -1,16 +1,18 @@
 /** Built-ins get ignored */
 import fs from 'fs';
 
-import a from '@scoped/package';
+import '@scoped/package';
 import b from '@scoped/package/baz/index.js';
 
-import c from 'export-map';
+import { c } from 'export-map';
 
 import d from 'nested';
 
 import e from 'regular';
 
 import f from 'monorepo';
+
+import g from 'internal-shared';
 
 import('dynamic-import');
 
