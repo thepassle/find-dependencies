@@ -26,6 +26,7 @@
   "files": [
     "index.js",
     "src/find-dependencies.js",
-    "src/utils.js"
+    "src/utils.js",
+    "package.json"
   ]
 }
