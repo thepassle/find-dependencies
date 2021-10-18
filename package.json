@@ -1,6 +1,6 @@
 {
   "name": "find-dependencies",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,8 @@
   },
   "type": "module",
   "exports": {
-    ".": "./index.js"
+    ".": "./index.js",
+    "./package.json": "./package.json"
   },
   "keywords": [],
   "author": "",
@@ -18,8 +19,13 @@
     "es-module-lexer": "^0.9.3"
   },
   "devDependencies": {
-    "@asdgf/cli": "^0.0.9",
+    "@asdgf/cli": "^0.0.13",
     "globby": "^12.0.2",
     "nodemon": "^2.0.13"
-  }
+  },
+  "files": [
+    "index.js",
+    "src/find-dependencies.js",
+    "src/utils.js"
+  ]
 }
